@@ -1,0 +1,75 @@
+@font-face {
+    font-family: Hanken;
+    src: url('https://fonts.google.com/specimen/Hanken+Grotesk');
+}
+
+*
+{
+    font-family: Hanken
+}
+
+.sectionspacing {
+    padding-top: 50px;
+}
+
+.curvedcorners {
+    border-radius: 20px;
+}
+.list-group {
+    border-radius: 20px;
+    padding-top: 2%;
+    border-color: #ffffff;
+    border: 5px solid #ffffff; 
+}
+
+.listspacing {
+    padding-top: 10%;
+}
+.center {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardsizing {
+    max-width: 300px;
+}
+
+.bluesectionheading {
+    font-size: 16px;
+    font-weight: 500;
+    color: hsl(218, 44%, 22%);
+}
+
+.heading {
+    font-size: 16px;
+    font-weight: 700;
+    color: hsl(218, 44%, 22%);
+}
+
+.body {
+    font-size: 18px;
+    font-weight: 500;
+    color: hsl(224, 30%, 27%);
+}
+.bodytitle {
+    font-size: 18px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.bluesidebackground {
+    background-image: linear-gradient(180deg, hsl(252, 100%, 67%), hsl(241, 81%, 54%) );
+}
+
+.circlebackground {
+    background-image: linear-gradient(180deg, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0) );
+}
+.circle {
+    border-radius: 50%;
+    height:150px;
+    width:150px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+}
